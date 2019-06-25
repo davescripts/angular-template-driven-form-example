@@ -27,4 +27,10 @@ export class TestFormComponent implements OnInit {
   ngOnInit() {
   }
 
+  onSubmit() {
+    alert(
+      JSON.stringify(this.testData)
+    );
+  }
+
 }
